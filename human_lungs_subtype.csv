@@ -1,0 +1,72 @@
+Macrophage,CD68,3
+Macrophage,CD14,2
+Macrophage,CCL18,2
+Macrophage,CD163,1
+Macrophage,CD11b,1
+Macrophage,CD11c,1
+Macrophage,CD80,1
+Macrophage,CD86,1
+Macrophage,HLA-DR,1
+Type ii pneumocyte,SLC34A2,3
+Type ii pneumocyte,SFTPC,2
+Type ii pneumocyte,SFTPA1,2
+Type ii pneumocyte,NKX2-1,1
+Type ii pneumocyte,ETV5,1
+Type ii pneumocyte,DDX3Y,1
+Basal cell,KRT5,2
+Basal cell,TP63,1
+Basal cell,SOX2,1
+Basal cell,NGFR,1
+Endothelial cell,VWF,2
+Endothelial cell,EGFL7,2
+Endothelial cell,EMCN,1
+Endothelial cell,CD93,1
+Endothelial cell,KDR,1
+Endothelial cell,FLT1,1
+Endothelial cell,ID3,1
+T cell,TRBC2,3
+T cell,CD3D,2
+T cell,CD3G,2
+T cell,CD3E,2
+T cell,LTB,1
+T cell,IL7R,1
+T cell,LEF1,1
+T cell,GZMK,1
+T cell,TRAC,1
+Club cell,SCGB3A2,2
+Club cell,SCGB1A1 ,1
+Goblet cell,MUC16,1
+Goblet cell,GGH,1
+Goblet cell,MUC5AC,2
+Goblet cell,TFF3,2
+Goblet cell,SPDEF,1
+Goblet cell,FOXA3,1
+Basophil,GATA2,1
+Basophil,TPSB2,2
+Basophil,CPA3,1
+Basophil,GPR56,1
+Basophil,HDC,1
+Ciliated cell,FOXJ1,2
+Ciliated cell,DNAH5,1
+Ciliated cell,CCNO,1
+Ciliated cell,TUBB4B,1
+Aerocyte,EDNRB,2
+Aerocyte,HPGD,1
+Aerocyte,IL1RL1,2
+CD8 T-cell,IL32,1
+CD8 T-cell,CCL5,1
+CD8 T-cell,CD8A,1
+CD8 T-cell,CD8B,1
+CD4 T-cell,IL7R,1
+CD4 T-cell,CD4,1
+CD4 T-cell,CD3D,1
+Endothelial cell-capillary,FCN3,1
+Endothelial cell-capillary,BTNL9,1
+Endothelial cell-capillary,EPAS1,1
+Endothelial cell-vein,PRSS23,1
+Endothelial cell-vein,NNMT,1
+Endothelial cell-vein,CLU,1
+Endothelial cell-vein,C7,1
+Endothelial cell-microvascular,PLVAP,1
+Endothelial cell-microvascular,RPS2,1
+Endothelial cell-microvascular,RPLP0,1

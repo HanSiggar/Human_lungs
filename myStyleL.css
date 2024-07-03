@@ -1,0 +1,145 @@
+body{
+    margin: 10px;
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+.outer{
+    position: relative;
+    height: 100%;
+}
+
+.hierarchy{
+    width: 65%;
+    margin-left: 20px;
+    background-color: rgb(251, 154, 209);
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    
+}
+
+#text{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.button {
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: rgb(116, 105, 182);
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+#container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#links{
+    width: 20%;
+    border: 1px solid black;
+    margin-right: 50px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.demo-container{
+	display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#empty{
+    background-color: #ddd;
+}
+
+.demo-container a button{
+	border-color: rgb(116, 105, 182);
+	padding:12px 32px 12px 32px;
+	letter-spacing: 1.2px;
+    background-color: white;
+	color:rgb(116, 105, 182);
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.demo-container a:hover button{
+	cursor: pointer;
+}
+
+.table{
+    scrollbar-gutter: none;
+    height: 400px;
+    overflow-y: auto;
+    margin-top: 20px;
+}
+
+#lungs{
+    width: 1000px;
+}
+
+#tableHeading{
+    text-align: center;
+    font-size: 30px;
+}
+
+table{
+    width: 65%;
+    text-align: center;
+    margin-left: 20px;
+}
+caption{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+th, td{
+    border-bottom: 1px, solid, #ddd;
+}
+
+th{
+    background-color: rgb(188, 127, 205);
+
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover{
+    background-color: rgb(255, 205, 234);
+}
+
+.suggestion_box{
+    margin-top: 20px;
+    position: relative;
+    bottom: 0px;
+    border: black;
+    background-color: rgb(198, 118, 224);
+    padding-left: 10px;
+    padding-bottom: 10px;
+    width: 65%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#text{
+    text-align: center;
+}
+
+.content{
+    margin-bottom: 10px;
+}

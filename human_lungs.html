@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Human Lungs</title>
+    <link rel="stylesheet" href="myStyleL.css">
+    <link rel="stylesheet" href="headerStyleL.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/buttons/3.0.2/css/buttons.dataTables.css">
+</head>
+<body>
+    <header>
+        <form class="d-flex">
+          <div class="ant-select ant-select-outlined ant-select-auto-complete css-i1mju1 ant-select-single ant-select-show-search">
+            <img src="main icon.png" alt="Main Icon" width="auto" height="auto" />
+            <h1 class="header-text">
+              <div class="wrapper">
+                <span>S</span>
+                <span>c</span>
+                <span>I</span>
+                <span>n</span>
+                <span>f</span>
+                <span>e</span>
+                <span>R</span>
+                <br>
+                <span> cell marker database</span>
+              </div>
+          </div>
+    
+        </form>
+      
+    <div id = "root">
+    <div class = "container-fluid">
+      <header>
+        <div class="button-container">
+          <button class="dropdown-btn" id="btn-1">Repository</button>
+          <ul class="dropdown-content" id="dropdown-1">
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+          </ul>
+      
+          <button class="dropdown-btn" id="btn-2">Cell Type</button>
+          <ul class="dropdown-content" id="dropdown-2">
+            <li><a href="#">Link 4</a></li>
+            <li><a href="#">Link 5</a></li>
+            <li><a href="#">Link 6</a></li>
+          </ul>
+      
+          <button class="dropdown-btn" id="btn-3">Gene</button>
+          <ul class="dropdown-content" id="dropdown-3">
+            <li><a href="#">Link 7</a></li>
+            <li><a href="#">Link 8</a></li>
+            <li><a href="#">Link 9</a></li>
+          </ul>
+        </div>
+    </div>
+    </div>
+    <div class="header-container">
+      
+      <div class="search-box">
+        <input type="text" id="gene-name" placeholder="Enter gene name">
+        <button id="search-button">Search</button>
+      </div>
+    </div>
+    </header>
+
+
+    <div class="outer">
+        <div id="container">
+            <div class="hierarchy">
+                <p id="text">To see the hierarchy of lungs cell:</p>
+                <a  href="tree_lungs.html" class="button">click here</a>
+             </div>
+             <div id="links">
+                 <p>Reference Links</p>
+                 <ul>
+                    <li>Link 1</li>
+                    <li>Link 2</li>
+                    <li>Link 3</li>
+                 </ul>
+     
+             </div> 
+        </div>
+        <section>
+            <div class="demo-container">
+                <a href="human_lungs_subtype.csv" download="human_lungs.csv">
+                    <button id="exportCSV">Export CSV</button>
+                </a>
+                <p id="tableHeading">Cell Types</p>
+                <div id="empty"></div>
+            </div>
+            <div class="table">
+                <table id="lungs">
+                    <tr>
+                        <th>Cell Type</th>
+                        <th>Marker</th>
+                        <th>Weight</th>
+                    </tr>
+                </table>
+                <script src="csvToTableL.js"></script>
+            </div>
+        </section>
+        <div class="suggestion_box">
+            <h3 id="text">
+                Suggestion box
+            </h3>
+            <p>Found a mistake or have suggestion? let us know here!</p>
+            <div class="content_box">
+                <form action="connect.php" method="post">
+                    <div class="content">
+                        <label for="cellType"> Cell Type:</label>
+                        <input type="text" name="celltype" id="cellType">
+                    </div>
+                    <div class="content">
+                        <label for="geneName"> Gene Name:</label>
+                        <input type="text" name="genename" id="geneName">
+                    </div>
+                    <div class="content">
+                        <label for="mistake"> Weight:</label>
+                        <input type="text" name="mistake" id="mistake">
+                    </div>
+                    <div class="content">
+                        <input type="submit">
+                    </div>
+                </form>
+            </div>
+            <a href="info.pdf" download="" class="btn btn--download"></a>
+        </div>
+
+    </div>
+<script src="./d3.js"></script>
+<script src="./d3-selection-multi.js"></script>
+<script src="./lungs.json"></script> 
+<script src="./treehierarchy.js"></script>
+</body>
+</html>

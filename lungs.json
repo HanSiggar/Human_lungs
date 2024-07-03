@@ -1,0 +1,19 @@
+{
+    "name" : "human lungs",
+    "children" : [
+        { "name" : "Macrophage" },
+        { "name" : "Type ii pneumocyte"},
+        { "name" : "Basal cell"},
+        {
+            "name" : "T-cell",
+            "children" : [
+                { "name" : "CD4+ T-cell"},
+                { "name" : "CD8+ T-cell"}
+            ]
+        },
+        { "name" : "Club cell"},
+        { "name" : "Goblet Cell"},
+        { "name" : "Basophil"},
+        { "name" : "Ciliated cell"}
+    ]
+}
